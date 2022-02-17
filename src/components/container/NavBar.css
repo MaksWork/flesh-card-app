@@ -1,0 +1,46 @@
+nav {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	padding-right: 40px;
+	line-height: 23px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+  
+li {
+	float: left;
+}
+  
+.nav-el{
+	color: #21c2a4;
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding: 8px 23px;
+	margin: 15px 0;
+	text-decoration: none;
+}
+.nav-el:hover{
+	color: #0f7864;
+}
+
+#home_page{
+	font-size: 19px;
+}
+
+#logo-img{
+	margin-right: 2px;
+}
+
+.active{
+	color: #fff;
+	background-color: #2C3E50;
+	border-radius: 5px;
+}
+.active:hover{
+	color: #fff;
+}

@@ -1,0 +1,22 @@
+.no-cards-alert{
+	font-weight: 400;
+	margin: 40px 0;
+}
+.no-cards-container{
+	font-family: 'Lato', sans-serif;
+	margin: 40px 0;
+	text-align: center;
+}
+
+#make-card-btn{
+	border: none;
+	color: #fff;
+	background-color: #2C3E50;
+	font-size: 15px;
+	padding: 13px 20px;
+	border-radius: 4px;
+	
+}
+#make-card-btn:hover{
+	cursor: pointer;
+}

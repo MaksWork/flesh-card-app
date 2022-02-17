@@ -1,0 +1,44 @@
+.new-card-container{
+	width: 40%;
+	margin: 0 auto;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	border-radius: 5px;
+	text-align: center;
+}
+.new-card-container h3{
+	font-weight: 400;
+	text-align: center;
+	padding: 20px;
+
+}
+.new-card-form{
+	padding: 20px;
+	text-align: left;
+}
+.new-card-form input{
+	border: 1px solid rgba(0, 0, 0, 0.267);
+	border-radius: 3px;
+	width: 100%;
+	outline: none;
+	font-size: 15px;
+	padding: 10px;
+	color: rgba(0, 0, 0, 0.527);
+}
+.save-btn{
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #394a5a;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	margin: 20px;
+}
+.save-btn:hover{
+	cursor: pointer;
+	background-color: #1E2B37;
+}
+label{
+	font-size: 13px;
+}

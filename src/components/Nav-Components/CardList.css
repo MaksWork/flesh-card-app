@@ -1,0 +1,65 @@
+.cards-container{
+	margin-top: 2rem;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+#delete-all-done{
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #394a5a;
+	padding: 20px;
+	margin: 20px;
+	font-size: 15px;
+}
+#delete-all-done:hover{
+	cursor: pointer;
+	background-color: #1E2B37;
+}
+.card-info-container{
+	background-color: #fff;
+	width: 40%;
+	margin: 0 auto;
+	border-radius: 5px;
+	
+}
+.card-info-container h3{
+	font-weight: 400;
+	padding: 20px;
+	
+	text-align: left;
+}
+.icon-links{
+	text-align: right;
+	padding-bottom: 5px;
+}
+.icon-links button{
+	border: none;
+	font-size: 20px;
+	background-color: #fff;
+	color: #15BC9E;
+}
+.icon-links button:hover{
+	color: #0F7864;
+	cursor: pointer;
+}
+.active-link{
+	text-decoration: none;
+	font-size: 20px;
+	color: #15BC9E;
+	padding: 5px ;
+}
+.icon-links .done{
+	color:#1ae02b;
+}
+.icon-links .undone{
+	color: rgb(245, 4, 4);
+}
+.active-link:hover{
+	color: #0F7864;
+}
+#isDone{
+	font-size: 20px;
+	padding: 5px;
+}

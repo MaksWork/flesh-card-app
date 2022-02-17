@@ -1,0 +1,37 @@
+.card-list-container{
+	margin-top: 8rem;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+.card-container{
+	background-color: #fff;
+	width: 40%;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card-container h1{
+	font-weight: 400;
+	padding: 4rem 0;
+}
+.card-container button{
+	border: none;
+	color: #fff;
+	background-color: #2C3E50;
+	font-size: 15px;
+	padding: 13px 40px;
+	border-radius: 4px;
+	margin: 3rem 0;
+}
+.card-container button:hover{
+	cursor: pointer;
+}
+.completed{
+	margin: 4rem 0;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.end-buttons-container button{
+	margin: 3rem 1rem;
+}
